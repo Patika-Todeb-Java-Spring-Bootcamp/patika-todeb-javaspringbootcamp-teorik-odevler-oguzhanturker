@@ -1,0 +1,55 @@
+1 – IOC and DI means ?
+
+IOC kontrolün terse dönmesi, DI ise direkt türkçe çevirisiyle bağımlılıkları enjekte etmek demektir. IOC varsayılanda lineer olan program akışını alıp başka otoritelere devretmeyi amaçlar. Normalde oluşturulacak nesnenin sınıf veya başka bileşenlere olan bağlılığı daha düşük bir seviyeye indirgenir. DI ise IOC yapmanın ollarından biridir. Kodun içindeki bağımlılıkları dışarıdan enjekte ederek esneklik sağlamaktır.
+
+2 – Spring Bean Scopes ?
+
+Spring frameworkun omurgasını oluşturan ve IOC container tarafından öneitlen nesnelere bean denir. Bean objelerinin yaşam alanı için ise bean scope kullanılır. Singleton, Prototype, Request, Session ve Global-Session olarak scope türleri vardır.
+
+3 – What does @SpringBootApplication do ?
+
+@SpringBootApplication anotasyonu uygulamanın giriş metodunu belirtir. Uygulama bu metod ile başlar.
+
+4 – Why Spring Boot over Spring?
+
+Temel boota ihtiyaç duyulmasının temel farklarından biri hız. Spring esneklik sunarken spring boot daha fazla hız sunar. Gömülü kapsayıcı desteği sağlar.
+
+5 – What is Singleton and where to use it ?
+
+Singleton bir nesnenin sadece bir örneğinin olduğundan emin olmak ve bu nesneye ihtiyaç duyulduğunda kodda her yerde aynı örneğin çağrılmasını sağlamak için kulanılır.
+
+6 – Explain @RestController annotation in Sprint boot?
+
+@RestController, @Controller ve @ResponseBody’nin birleşiminden oluşan bir stereotype. Bu sayede REST controller olması istenen her metoda @ResponseBodyyazmaktan kurtulmuş olunuyor. @Controller notasyonu aksine datanın kendisini JSON veya XML formatı ile diret sunabiliyor.
+
+7 - What is the primary difference between Spring and Spring Boot ?
+
+Spring, kurumsal uygulamalar geliştirmek için yaygın olarak kullanılan açık kaynaklı hafif bir fraeworkken Spring Boot, REST API'lerini geliştirmek için yaygın olarak kullanılan geleneksel frameworkun üzerine inşa edilmiştir.
+
+8 – Why to use VCS ?
+
+Versiyon Kontrol Sistemi Neden Önemlidir? Versiyon kontrolü, değişiklikleri takip etmek ve her ekip üyesinin en son sürümle çalışmasını sağlamak için önemlidir. Birden çok ekip üyesinin üzerinde işbirliği yapacağı tüm kodlar, dosyalar ve varlıklar için sürüm kontrol yazılımı kullanmak gerekir.
+
+9 – What are SOLID Principles ? Give sample usages in Java ?
+
+Solid Prensipleri, yazılım geliştirme süreçlerinde karşılaşılan temel sorunlara getirilen ve içerisinde 5 temel prensibi barındıran prensipler bütünüdür. (Single Responsibility Principle, Open/Closed Principle, Liskov ‘s Substitution Principle, Interface Segregation Principle, Dependency Inversion Principle)
+
+10 - What is RAD model ?
+
+RAD(Rapid Application Development) yani Hızlı Uygulama Geliştirme bir yazılım geliştirme yöntemidir. Çok fazla detaya girilmeden, hızlı şekilde çalışan bir uygulama oluşturma amacıyla benimsenen bu yöntem için kullanılan birçok araç ve kütüphane bulunmaktadır.
+
+11 - What is Spring Boot starter ? How is it useful ?
+
+Spring Boot’un temel özellikleri arasında build konfigürasyonunu kolaylaştırmak için sağlanır. Starterlar kısaca uygulamanıza ekleyebileceğiniz bir dizi bağımlılık tanımlayıcısıdır. Sizi kullanmak istediğiniz teknolojilerin her biri için arama yapıp teker teker bağımlılık olarak ekleme zahmetinden kurtarır. 
+
+12 – What are the Spring Boot Annotations?
+
+Developlement anında IDE veya compiler tarafından yada run-time anında framework tarafından yorumlanan ifadelerdir. İlk önce yalnızca anotasyonları (spring tarafından yönetilen bean) taranır ve yapılmas gereken görev eşleştirmeleri yapılır.
+
+13 – What is Spring Boot dependency management?
+
+Maven sadece bir tane parent pom kullanmayı sağlar. Farklı bir parent pom kullanıldığında veya kullanılmak istendiğinde Dependency Management özelliği kullanılarak benzer sonuç elde edilebilir.
+
+14 -  What is Spring Boot Actuator?
+
+Yaptığımız ya da yapacağımız Spring Boot uygulamalarımızın endpoint yardımı ile çalışan Spring Boot uygulaması hakkında bilgi almamızı sağlamaktadır.
